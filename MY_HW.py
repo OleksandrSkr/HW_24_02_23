@@ -46,7 +46,7 @@ while "ad" in text:
 # print(text)
 
 while "Lorem" in text:
-    i = (text.index("Lorem"))
-    text[i] = "Hey you"
+    x = (text.index("Lorem"))
+    text[x] = "Hey you"
 #print(text)
 print(" ".join(text))
